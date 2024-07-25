@@ -1,8 +1,8 @@
-# Transferring NFTs from Goerli to Mumbai Testnet
+# Transferring NFTs sepolia Testnet
 
 This project is part of the Polygon Proof: Proof of Stake  by Metacrafters
 
-In this project, we had to create a ERC721 contract to mint and transfer NFTs from Goerli to Mumbai testnet. We have used an AI Image generation tool to generate 5 images which will be used as NFTs.
+In this project, we had to create a ERC721 contract to mint and transfer NFTs sepolia testnet. We have used an AI Image generation tool to generate 5 images which will be used as NFTs.
 &nbsp;
 
 
@@ -33,9 +33,3 @@ The images has beed stored on an IPFS, which provides a unique ID called CID for
 
 &nbsp;
 
-### Walkthrough Video
-
-Part 1: https://www.loom.com/share/e85216379c924695b31061013c49b7c2
-&nbsp;
-
-Part 2: https://www.loom.com/share/792fbec5caf3409a99dfbfd7e9cf1dc5
