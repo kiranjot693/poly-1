@@ -1,13 +1,19 @@
+/** @type import('hardhat/config').HardhatUserConfig */
+require("@nomiclabs/hardhat-ethers");
+module.exports = {
+  solidity: "0.8.18",
+};
 require("@nomiclabs/hardhat-waffle");
 require("dotenv").config();
 
+/** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
-  solidity: "0.8.12", // Corrected solidity version
-  networks: {
-    hardhat: {}, // Explicitly define the hardhat network
-    mumbai : {
-      url: 'https://polygon-zkevm-cardona.blockpi.network/v1/rpc/public',
-      accounts: [process.env.PRIVATE_KEY],
-    },
+  solidity: "0.8.18",
+  networks:{
+    hardhat: {},
+    mumbai: {
+      url: `https://rpc.sepolia.ethpandaops.io`,
+      accounts: [process.env.MyKey]
+    }
   },
 };
