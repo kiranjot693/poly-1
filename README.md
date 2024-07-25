@@ -23,13 +23,13 @@ The images has beed stored on an IPFS, which provides a unique ID called CID for
  - Deploy the contract using the following command 
    &nbsp;
    
-   `npx hardhat run scripts/deploy.js --network goerli`.
+   `npx hardhat run scripts/deploy.js --network sepolia`.
  - Copy and paste the contract address in the .env file
- - Run `npx hardhat run scripts/batchMint.js --network goerli` to mint all the NFTs in a single transaction.
+ - Run `npx hardhat run scripts/batchMint.js --network sepolia` to mint all the NFTs in a single transaction.
  - Approve and transfer the NFTs using the following command
     &nbsp;
 
-   `npx hardhat run scripts/approveDeposit.js --network goerli`
+   `npx hardhat run scripts/approveDeposit.js --network sepolia`
 
 &nbsp;
 
