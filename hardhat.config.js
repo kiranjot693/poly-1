@@ -11,7 +11,7 @@ module.exports = {
   solidity: "0.8.18",
   networks:{
     hardhat: {},
-    mumbai: {
+    sepolia: {
       url: `https://rpc.sepolia.ethpandaops.io`,
       accounts: [process.env.MyKey]
     }
